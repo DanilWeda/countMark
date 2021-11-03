@@ -1,0 +1,45 @@
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+
+.flex .btn {
+  cursor: pointer;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  width: 100px;
+  height: 25px;
+  border-radius: 2px;
+  border: 1px solid #000;
+  background: #ccc;
+}
+
+.flex .btn:hover {
+  color: darkgoldenrod;
+  border: 2px solid #000;
+}
+
+.flex .btn:active {
+  color: #ccc;
+}
+
+.flex .paragraph {
+  display: block;
+  width: 50px;
+  height: 15px;
+}
+/*# sourceMappingURL=style.css.map */
